@@ -11,8 +11,6 @@ public class CheckPrimeNumber {
             if (num % d == 0) {
                 prime = false;
                 break;
-            } else {
-                prime = true;
             }
         }
         return prime;
